@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddBinaryTest.cs" />
+    <Compile Include="BestTImeToSellStockTest.cs" />
     <Compile Include="BinarySearchTest.cs" />
     <Compile Include="ContainerWithMostWaterTest.cs" />
     <Compile Include="IsPalindromeTest.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="LongestCommonPrefixTest.cs" />
     <Compile Include="MaxSubArrayTest.cs" />
     <Compile Include="MergeTwoSortedListsTest.cs" />
+    <Compile Include="PascalsTriangleTest.cs" />
     <Compile Include="PlusOneTest.cs" />
     <Compile Include="RemoveDuplicatesLLTest.cs" />
     <Compile Include="RomanToInTest.cs" />

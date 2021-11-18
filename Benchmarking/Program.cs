@@ -9,8 +9,6 @@ namespace Benchmarking
         static void Main(string[] args)
         {
             LengthOfLongestSubstringBenchmark();
-
-            //test change
         }
 
         private static void LengthOfLongestSubstringBenchmark()
