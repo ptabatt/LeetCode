@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 
 namespace LeetCode
 {
@@ -16,23 +16,12 @@ namespace LeetCode
 
         public void Merge(int[] nums1, int m, int[] nums2, int n)
         {
-            var lst = new List<int>();
-            for (int i = 0; i < m; i++)
-            {   
-                lst.Add(nums1[i]);
-            }
-            foreach (var num in nums2)
+            for (int i = 0; i < n; i++)
             {
-                lst.Add(num);
+                nums1[m + i] = nums2[i];
             }
 
-            lst.Sort();
-            var nums3 = lst.ToArray();
-
-            for (int i=0; i <= nums3.Length - 1; i++)
-            {
-                nums1[i] = nums3[i];
-            }
+            Array.Sort(nums1);
         }
     }
 }
