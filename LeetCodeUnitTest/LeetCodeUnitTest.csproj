@@ -69,6 +69,7 @@
     <Compile Include="PascalsTriangleTest.cs" />
     <Compile Include="PlusOneTest.cs" />
     <Compile Include="RemoveDuplicatesLLTest.cs" />
+    <Compile Include="RemoveElementTest.cs" />
     <Compile Include="RomanToInTest.cs" />
     <Compile Include="ThreeSumProblemTest.cs" />
     <Compile Include="TwoSumTest.cs" />
