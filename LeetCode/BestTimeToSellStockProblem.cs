@@ -13,15 +13,13 @@
         /// </summary>
         /// <param name="prices"></param>
         /// <returns></returns>
-        public int MaxProfit(int[] prices)
+        public int MaxProfit_Naive(int[] prices)
         {
             var iMaxProfit = 0;
-            var iDayOfMaxProfit = 0;
 
             for (int i = 0; i < prices.Length; i++)
             {
                 var iLocalMaxProfit = 0;
-                var iLocalDayOfMaxProfit = 0;
 
                 for (int j = i + 1; j < prices.Length; j++)
                 {
@@ -30,18 +28,38 @@
                     if (iDelta > iLocalMaxProfit)
                     {
                         iLocalMaxProfit = iDelta;
-                        iLocalDayOfMaxProfit = j + 1;
                     }
                 }
 
                 if (iLocalMaxProfit > iMaxProfit)
                 {
                     iMaxProfit = iLocalMaxProfit;
-                    iDayOfMaxProfit = iLocalDayOfMaxProfit;
                 }
             }
 
-            return iDayOfMaxProfit;
+            return iMaxProfit;
+        }
+
+        // One-pass solution that works in O(n) time and has O(1) memory
+        public int MaxProfit(int[] prices)
+        {
+            var maxProfit = 0;
+            var idxLowestMinDay = 0;
+
+            for (int i = 1; i < prices.Length; i++)
+            {
+                var currentProfit = prices[i] - prices[idxLowestMinDay];
+                if (currentProfit > maxProfit)
+                {
+                    maxProfit = currentProfit;
+                }
+                else if (prices[i] < prices[idxLowestMinDay])
+                {
+                    idxLowestMinDay = i;
+                }
+            }
+
+            return maxProfit;
         }
     }
 }
