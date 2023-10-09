@@ -73,6 +73,7 @@
     <Compile Include="RemoveDuplicatesLLTest.cs" />
     <Compile Include="RemoveElementTest.cs" />
     <Compile Include="RomanToInTest.cs" />
+    <Compile Include="SummaryRangeTest.cs" />
     <Compile Include="ThreeSumProblemTest.cs" />
     <Compile Include="TwoSumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
