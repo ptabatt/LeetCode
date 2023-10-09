@@ -1,35 +1,24 @@
-﻿using NUnit.Framework;
-using LeetCode;
+﻿using LeetCode;
+using NUnit.Framework;
 
 namespace LeetCodeUnitTest
 {
     [TestFixture]
     public class IsPalindromeTest
     {
-        [Test]
-        public void IsPalindrome_BasicTest()
+        [TestCase("A man, a plan, a canal: Panama", true)]
+        [TestCase("race a car", false)]
+        [TestCase("racecar", true)]
+        [TestCase("ABBA", true)]
+        [TestCase("ABBA Gold", false)]
+        [TestCase("9i9", true)]
+        [TestCase("9i9e", false)]
+        [TestCase("   ", true)]
+        public void IsPalindromeBasicTests(string s, bool isPalindrome)
         {
-            var sut = new PalindromeNumberProblem();
+            var sut = new IsPalindromeProblem();
 
-            var objResult = sut.IsPalindrome(121);
-
-            Assert.IsTrue(objResult);
-            
-            objResult = sut.IsPalindrome(4004);
-
-            Assert.IsTrue(objResult);
-
-            objResult = sut.IsPalindrome(0);
-
-            Assert.IsTrue(objResult);
-
-            objResult = sut.IsPalindrome(2345);
-
-            Assert.IsFalse(objResult);
-
-            objResult = sut.IsPalindrome(-121);
-
-            Assert.IsFalse(objResult);
+            Assert.AreEqual(isPalindrome, sut.IsPalindrome(s));
         }
     }
 }

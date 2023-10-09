@@ -59,6 +59,7 @@
     <Compile Include="BinarySearchTest.cs" />
     <Compile Include="ContainerWithMostWaterTest.cs" />
     <Compile Include="FirstIndexOfFirstOccurrenceTest.cs" />
+    <Compile Include="IsPalindromeNumberTest.cs" />
     <Compile Include="IsPalindromeTest.cs" />
     <Compile Include="LengthOfLastWordTest.cs" />
     <Compile Include="LengthOfLongestSubstringTest.cs" />
