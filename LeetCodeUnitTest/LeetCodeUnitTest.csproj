@@ -73,6 +73,7 @@
     <Compile Include="PascalsTriangleTest.cs" />
     <Compile Include="PlusOneTest.cs" />
     <Compile Include="ProductExceptItselfTest.cs" />
+    <Compile Include="RansomNoteTest.cs" />
     <Compile Include="RemoveDuplicatesLLTest.cs" />
     <Compile Include="RemoveElementTest.cs" />
     <Compile Include="RomanToInTest.cs" />
