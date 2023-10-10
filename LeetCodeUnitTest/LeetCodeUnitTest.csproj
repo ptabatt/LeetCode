@@ -64,6 +64,7 @@
     <Compile Include="LengthOfLastWordTest.cs" />
     <Compile Include="LengthOfLongestSubstringTest.cs" />
     <Compile Include="LongestCommonPrefixTest.cs" />
+    <Compile Include="MaxDepthOfBinaryTreeTest.cs" />
     <Compile Include="MaxSubArrayTest.cs" />
     <Compile Include="MergeSortedArrayTest.cs" />
     <Compile Include="MergeTwoSortedListsTest.cs" />
