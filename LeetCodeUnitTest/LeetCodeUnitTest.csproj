@@ -61,6 +61,7 @@
     <Compile Include="FirstIndexOfFirstOccurrenceTest.cs" />
     <Compile Include="IsPalindromeNumberTest.cs" />
     <Compile Include="IsPalindromeTest.cs" />
+    <Compile Include="IsSameTreeTest.cs" />
     <Compile Include="LengthOfLastWordTest.cs" />
     <Compile Include="LengthOfLongestSubstringTest.cs" />
     <Compile Include="LongestCommonPrefixTest.cs" />
