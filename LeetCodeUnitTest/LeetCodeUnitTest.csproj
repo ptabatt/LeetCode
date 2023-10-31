@@ -66,6 +66,7 @@
     <Compile Include="LengthOfLastWordTest.cs" />
     <Compile Include="LengthOfLongestSubstringTest.cs" />
     <Compile Include="LongestCommonPrefixTest.cs" />
+    <Compile Include="LongestConsecutiveSequenceTest.cs" />
     <Compile Include="LRUCacheTest.cs" />
     <Compile Include="MaxDepthOfBinaryTreeTest.cs" />
     <Compile Include="MaxSubArrayTest.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="RemoveDuplicatesLLTest.cs" />
     <Compile Include="RemoveElementTest.cs" />
     <Compile Include="RomanToInTest.cs" />
+    <Compile Include="RotateImageTest.cs" />
     <Compile Include="SummaryRangeTest.cs" />
     <Compile Include="ThreeSumProblemTest.cs" />
     <Compile Include="TwoSumTest.cs" />
