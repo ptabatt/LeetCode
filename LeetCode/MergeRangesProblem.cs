@@ -11,32 +11,38 @@ namespace LeetCode
         // "Merge" the two arrays into one.
         // i.e. [ [1,3], [2, 4] ] => [ [1, 4] ]
         // [ [1,3], [6, 7] ] => [ [1,3], [6, 7] ] (remains unchanged)
-        public int[][] MergeRanges(int[][] ranges)
+
+        // Update: found it on leetcode https://leetcode.com/problems/merge-intervals/description/
+        public int[][] Merge(int[][] intervals)
         {
-            if (ranges == null || ranges.Length == 0)
+            if (intervals == null || intervals.Length == 0)
             {
                 return null;
             }
 
-            Array.Sort(ranges, (a, b) => { return a[0] - b[0]; });
+            Array.Sort(intervals, (a, b) => { return a[0] - b[0]; });
 
             var result = new List<int[]>();
-            result.Add(ranges[0]);
+            result.Add(intervals[0]);
 
-            for (int i = 1; i < ranges.Length; i++)
+            for (int i = 1; i < intervals.Length; i++)
             {
-                if (ranges[i] == null || ranges[i].Length != 2)
+                if (intervals[i] == null || intervals[i].Length != 2)
                     return null;
 
                 var last = result.Last();
-                
-                if (last[1] >= ranges[i][0])
+
+                if (last[1] > intervals[i][1])
                 {
-                    last[1] = ranges[i][1];
+                    continue;
+                }
+                if (last[1] >= intervals[i][0])
+                {
+                    last[1] = intervals[i][1];
                 }
                 else
                 {
-                    result.Add(ranges[i]);
+                    result.Add(intervals[i]);
                 }
             }
 
