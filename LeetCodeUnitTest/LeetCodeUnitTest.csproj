@@ -65,6 +65,7 @@
     <Compile Include="IsValidSudokuTest.cs" />
     <Compile Include="LengthOfLastWordTest.cs" />
     <Compile Include="LengthOfLongestSubstringTest.cs" />
+    <Compile Include="LinkedListCycleIITest.cs" />
     <Compile Include="LongestCommonPrefixTest.cs" />
     <Compile Include="LongestConsecutiveSequenceTest.cs" />
     <Compile Include="LRUCacheTest.cs" />
