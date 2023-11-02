@@ -58,6 +58,7 @@
     <Compile Include="BestTImeToSellStockTest.cs" />
     <Compile Include="BinarySearchTest.cs" />
     <Compile Include="ContainerWithMostWaterTest.cs" />
+    <Compile Include="EvaluateReversePolishNotationTest.cs" />
     <Compile Include="FirstIndexOfFirstOccurrenceTest.cs" />
     <Compile Include="IsPalindromeNumberTest.cs" />
     <Compile Include="IsPalindromeTest.cs" />
