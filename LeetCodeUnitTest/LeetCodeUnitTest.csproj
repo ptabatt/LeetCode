@@ -83,6 +83,7 @@
     <Compile Include="RemoveElementTest.cs" />
     <Compile Include="RomanToInTest.cs" />
     <Compile Include="RotateImageTest.cs" />
+    <Compile Include="SpiralMatrixTest.cs" />
     <Compile Include="SummaryRangeTest.cs" />
     <Compile Include="ThreeSumProblemTest.cs" />
     <Compile Include="TwoSumTest.cs" />
