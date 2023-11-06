@@ -83,6 +83,7 @@
     <Compile Include="RansomNoteTest.cs" />
     <Compile Include="RemoveDuplicatesLLTest.cs" />
     <Compile Include="RemoveElementTest.cs" />
+    <Compile Include="ReverseWordsInStringTest.cs" />
     <Compile Include="RomanToInTest.cs" />
     <Compile Include="RotateArrayTest.cs" />
     <Compile Include="RotateImageTest.cs" />
