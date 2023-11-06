@@ -84,6 +84,7 @@
     <Compile Include="RemoveDuplicatesLLTest.cs" />
     <Compile Include="RemoveElementTest.cs" />
     <Compile Include="RomanToInTest.cs" />
+    <Compile Include="RotateArrayTest.cs" />
     <Compile Include="RotateImageTest.cs" />
     <Compile Include="SpiralMatrixTest.cs" />
     <Compile Include="SummaryRangeTest.cs" />
