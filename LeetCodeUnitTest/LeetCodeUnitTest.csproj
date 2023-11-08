@@ -64,6 +64,7 @@
     <Compile Include="IsPalindromeNumberTest.cs" />
     <Compile Include="IsPalindromeTest.cs" />
     <Compile Include="IsSameTreeTest.cs" />
+    <Compile Include="IsSubsequenceTest.cs" />
     <Compile Include="IsValidAnagramTest.cs" />
     <Compile Include="IsValidSudokuTest.cs" />
     <Compile Include="LengthOfLastWordTest.cs" />
