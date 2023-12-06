@@ -68,6 +68,7 @@
     <Compile Include="IsSubsequenceTest.cs" />
     <Compile Include="IsValidAnagramTest.cs" />
     <Compile Include="IsValidSudokuTest.cs" />
+    <Compile Include="JumpGameTest.cs" />
     <Compile Include="LengthOfLastWordTest.cs" />
     <Compile Include="LengthOfLongestSubstringTest.cs" />
     <Compile Include="LinkedListCycleIITest.cs" />
