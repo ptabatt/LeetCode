@@ -61,6 +61,7 @@
     <Compile Include="EvaluateReversePolishNotationTest.cs" />
     <Compile Include="FirstIndexOfFirstOccurrenceTest.cs" />
     <Compile Include="HasPathSumTest.cs" />
+    <Compile Include="IsIsomorphicTest.cs" />
     <Compile Include="IsPalindromeNumberTest.cs" />
     <Compile Include="IsPalindromeTest.cs" />
     <Compile Include="IsSameTreeTest.cs" />
