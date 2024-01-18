@@ -79,6 +79,7 @@
     <Compile Include="MaxSubArrayTest.cs" />
     <Compile Include="MergeRangesTest.cs" />
     <Compile Include="MergeSortedArrayTest.cs" />
+    <Compile Include="MergeStringsAlternatelyTest.cs" />
     <Compile Include="MergeTwoSortedListsTest.cs" />
     <Compile Include="PascalsTriangleTest.cs" />
     <Compile Include="PlusOneTest.cs" />
